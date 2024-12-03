@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./CSS/StyleContacto.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Logo</a>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="/Index.html">Inicio</a></li>
+                    <li><a href="/QuienesSomos.html">Quienes Somos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ 
+    <main class="contenido">
+        <div class="container-form">
+            <div class="informacion">
+                <div class="info-childs">
+                    <h2>Bienvenido</h2>
+                    <p>Dejanos tu informacion de contacto y reponderemos a tus dudas a la brevedad</p>
+                </div>
+            </div>
+            <div class="form-information">
+                <div class="form-information-childs">
+                    <h2>Contacto</h2>
+                    <p>Ingresa tus datos de contacto y comentarios</p>
+                    <form class="form">
+                        <label>
+                            <i class='bx bx-user-circle'></i>
+                            <input type="text"placeholder="Nombre Completo" id="nombre">
+                            <div id="error-nombre"></div>
+                        </label>
+                        <label>
+                            <i class='bx bx-envelope'></i>
+                            <input type="email"placeholder="E-mail de contacto" id="email">
+                            <div id="error-email"></div>
+                        </label>
+                        <label>
+                            <i class='bx bx-text' ></i>
+                            <input type="text"placeholder="Dejanos tus dudas" id="dudas">
+                            <div id="error-dudas"></div>
+                        </label>
+                        <input type="submit"placeholder="Enviar" id="enviar">
+                    </form>
+                    
+                    
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="./JS/formulario.js"></script>
+</body>
+</html>
